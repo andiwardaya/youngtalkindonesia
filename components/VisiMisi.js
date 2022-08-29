@@ -3,12 +3,12 @@ import { PlusCircleIcon } from "@heroicons/react/outline";
 
 function VisiMisi() {
   return (
-    <div className="py-5 px-5 md:px-0 space-y-3 md:flex md:items-start md:justify-center md:py-8 md:space-y-0 md:space-x-3 bg-gray-200">
+    <div className="py-8 px-5  space-y-8 md:flex md:items-start md:justify-center md:py-8 md:space-y-0 md:space-x-3 md:px-20">
       {/* VISION */}
       <div className="md:flex-1">
-        <h1 className="font-bold text-xl text-blue-600">Vision</h1>
+        <h1 className="font-extrabold text-xl text-blue-600">Vision</h1>
         <hr className="border-2 border-gray-300 mb-2"></hr>
-        <ul className="list-disc ml-5 marker:text-blue-600 space-y-2 text-sm">
+        <ul className="list-disc ml-5 marker:text-blue-600 space-y-2 text-sm text-gray-600">
           <li>
             What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
             printing and typesetting industry. Lorem Ipsum has been the
@@ -23,9 +23,9 @@ function VisiMisi() {
 
       {/* MISION */}
       <div className="md:flex-1">
-        <h1 className="font-bold text-xl text-blue-600">Misson</h1>
+        <h1 className="font-extrabold text-xl text-blue-600">Mission</h1>
         <hr className="border-2 border-gray-300 mb-2"></hr>
-        <ul className="list-disc ml-5 marker:text-blue-600 space-y-2 text-sm">
+        <ul className="list-disc ml-5 marker:text-blue-600 space-y-2 text-sm text-gray-600">
           <li>
             What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
             printing and typesetting industry.
