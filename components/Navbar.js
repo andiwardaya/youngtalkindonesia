@@ -25,9 +25,9 @@ function Navbar() {
 
   const NavLink = [
     { name: "Home", alamat: "/home" },
-    { name: "Profile", alamat: "/profile" },
-    { name: "News & Event", alamat: "/news-event" },
-    { name: "Blog", alamat: "/blog" },
+    { name: "Event & Blog", alamat: "/profile" },
+    { name: "Our Mission", alamat: "/news-event" },
+    { name: "FAQ", alamat: "/blog" },
     { name: "Hubungi Kami", alamat: "/contact" },
   ];
 

@@ -22,9 +22,7 @@ export default function Home() {
         <About />
         <VisiMisi />
         <Team />
-        {/* 
-        
-        <Footer /> */}
+        <Footer />
       </main>
     </div>
   );

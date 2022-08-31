@@ -4,20 +4,82 @@ import { MenuIcon, XIcon } from "@heroicons/react/solid";
 
 function Team() {
   return (
-    <div>
-      <h1 className="text-center font-extrabold text-2xl text-blue-500">
+    <div className="py-8">
+      <h1 className="text-center font-extrabold text-2xl md:text-4xl text-blue-500 md:mb-3">
         Meet The Team
       </h1>
-      <div>
+      <div className="grid md:grid-cols-2 xl:grid-cols-3 py-5">
         <TeamCard
           name={"Kemal Pasha"}
           img={"./Kemal.png"}
-          jabatan={"Anggota"}
-          linkIG={"www.google.com"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
           linkGoogle={"www.google.com"}
           linkedIn={"www.google.com"}
-          motto={"hidup adalah kunci"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
         />
+        <TeamCard
+          name={"Kemal Pasha"}
+          img={"./Kemal.png"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
+          linkGoogle={"www.google.com"}
+          linkedIn={"www.google.com"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
+        />
+        <TeamCard
+          name={"Kemal Pasha"}
+          img={"./Kemal.png"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
+          linkGoogle={"www.google.com"}
+          linkedIn={"www.google.com"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
+        />
+        <TeamCard
+          name={"Kemal Pasha"}
+          img={"./Kemal.png"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
+          linkGoogle={"www.google.com"}
+          linkedIn={"www.google.com"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
+        />
+        <TeamCard
+          name={"Kemal Pasha"}
+          img={"./Kemal.png"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
+          linkGoogle={"www.google.com"}
+          linkedIn={"www.google.com"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
+        />
+        <TeamCard
+          name={"Kemal Pasha"}
+          img={"./Kemal.png"}
+          jabatan={"Consultant Event"}
+          linkIG={"https://www.google.com/"}
+          linkGoogle={"www.google.com"}
+          linkedIn={"www.google.com"}
+          motto={
+            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          }
+        />
+      </div>
+      <div className="flex">
+        <button className="mx-auto py-2 px-5 bg-blue-500 font-bold text-white">
+          Meet All Team
+        </button>
       </div>
     </div>
   );

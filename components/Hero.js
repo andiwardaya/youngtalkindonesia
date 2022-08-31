@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="bg-[url('../public/carousel1.jpg')] w-full h-screen object-cover bg-center bg-no-repeat bg-cover flex flex-col item-center justify-center relative border border-red-600">
+    <div className="bg-[url('../public/carousel1.jpg')] w-full h-screen object-cover bg-center bg-no-repeat bg-cover flex flex-col item-center justify-center relative ">
       <div className="">
         <h1 className="font-extrabold md:text-8xl text-5xl text-white flex flex-col items-end px-5">
           SELAMAT DATANG DI <br></br> YOUNGTALK INDONESIA
