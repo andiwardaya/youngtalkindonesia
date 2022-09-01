@@ -1,6 +1,7 @@
 import React from "react";
 import TeamCard from "./TeamCard";
 import { MenuIcon, XIcon } from "@heroicons/react/solid";
+import Link from "next/link";
 
 function Team() {
   return (
@@ -78,7 +79,7 @@ function Team() {
       </div>
       <div className="flex">
         <button className="mx-auto py-2 px-5 bg-blue-500 font-bold text-white">
-          Meet All Team
+          <Link href="/all-team">Meet All Team</Link>
         </button>
       </div>
     </div>
