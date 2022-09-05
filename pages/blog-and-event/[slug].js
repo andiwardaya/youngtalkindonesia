@@ -95,7 +95,7 @@ const singlePageBlog = ({ post }) => {
         </article>
 
         {submitted ? (
-          <div className="flex flex-col py-5 space-y-2 px-10 rounded-md border-blue-500 text-white max-w-lg mx-auto">
+          <div className="flex flex-col py-5 space-y-2 px-10 rounded-md border-blue-500 text-blue-500 max-w-lg mx-auto">
             <h1 className="text-2xl font-bold">Terima kasih sudah komen</h1>
             <h2 className="text-sm">
               setelah disetujui oleh moderator, komen akan tampil dibawah
@@ -161,28 +161,27 @@ const singlePageBlog = ({ post }) => {
 
             <input
               type="submit"
-              className="shadow bg-blue-500 hover:bg-blue-400 text-white font-bold rounded-lg focus:shadow-outline focus:outline-none py-2 px-4 cursor-pointer"
+              className="shadow bg-blue-500 hover:bg-blue-400 text-white font-bold rounded-md focus:shadow-outline focus:outline-none py-2 px-4 cursor-pointer"
             />
           </form>
         )}
 
         {/* COMMENT */}
-        {/* <div className="max-w-2xl mx-auto flex flex-col py-3 px-5 space-y-2 border border-blue-500">
-          <h3 className="text-2xl  font-bold">Comments</h3>
+        <div className="max-w-2xl flex flex-col py-3 px-5 my-4 mt-3 mx-3 mb-10 space-y-2 bg-gray-100 rounded-md shadow-xl">
+          <h3 className="text-2xl  font-bold text-blue-500">Comments</h3>
           <hr />
 
           {post.comments.map((comment) => (
             <div key={comment._id}>
-              <p>
+              <p className="text-sm md:text-base">
                 <span className="font-bold">{comment.name}</span>{" "}
                 {comment.comment}
               </p>
             </div>
           ))}
-        </div> */}
-
-        <Footer />
+        </div>
       </main>
+      <Footer />
     </>
   );
 };
@@ -229,7 +228,11 @@ export async function getStaticProps({ params }) {
          author-> {
          name,
          image
-       }
+       },
+       "comments": *[
+        _type == "comment" &&
+        post._ref == ^._id &&
+        approved == true],
     }`;
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
