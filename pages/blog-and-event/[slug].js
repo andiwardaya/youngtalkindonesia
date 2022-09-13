@@ -167,7 +167,7 @@ const singlePageBlog = ({ post }) => {
         )}
 
         {/* COMMENT */}
-        <div className="max-w-2xl flex flex-col py-3 px-5 my-4 mt-3 mx-3 mb-10 space-y-2 bg-gray-100 rounded-md shadow-xl">
+        <div className="max-w-2xl flex  flex-col py-3 px-5 my-4 mt-3 mx-auto mb-10 space-y-2 bg-gray-100 rounded-md shadow-xl">
           <h3 className="text-2xl  font-bold text-blue-500">Comments</h3>
           <hr />
 
