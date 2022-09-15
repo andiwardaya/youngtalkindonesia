@@ -16,18 +16,18 @@ const Navbar2 = () => {
   return (
     <div
       className={`w-full fixed 
-         bg-blue-500
-         h-30  z-10  mx-auto left-[50%] right-[50%] translate-y-[-10%] translate-x-[-50%] transition-all ease-out duration-300 `}
+         bg-blue-400
+         h-auto  z-10  mx-auto left-[50%] right-[50%] translate-y-[-10%] translate-x-[-50%] transition-all ease-out duration-300 `}
     >
-      <div className="md:flex  justify-between md:items-center  py-3 md:px-10 px-3 ">
+      <div className="md:flex  justify-between md:items-center  py-0 md:px-10 px-3 ">
         {/* Logo */}
-        <div>
+        <div className="pt-2 cursor-pointer">
           <Link href="/">
             <Image
               className="rounded-md "
-              src="/yti_merah.png"
-              width="160"
-              height="35"
+              src="/yti-warna.png"
+              width="50"
+              height="38"
             />
           </Link>
         </div>
@@ -41,7 +41,7 @@ const Navbar2 = () => {
 
         <ul
           className={`md:flex md:items-center md:space-x-10 md:static absolute md:z-auto z-[-10] ${
-            open ? "top-[57px] " : "top-[-700px]"
+            open ? "top-[40px] " : "top-[-700px]"
           } w-full h-screen md:h-auto left-0 md:w-auto transition-all  duration-500 ease-in-out md:pt-0  md:bg-transparent py-10 md:py-0 bg-blue-400
            `}
         >

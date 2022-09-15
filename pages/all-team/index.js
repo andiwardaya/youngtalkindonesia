@@ -1,3 +1,4 @@
+import Head from "next/head";
 import React from "react";
 import Footer from "../../components/Footer";
 import Navbar2 from "../../components/Navbar2";
@@ -6,6 +7,11 @@ import TeamCard from "../../components/TeamCard";
 const allTeamPage = () => {
   return (
     <>
+      <Head>
+        <title>Youngtalk Indonesia Team</title>
+        <meta name="description" content="Youngtalk Indonesia Team" />
+        <link rel="icon" href="/yti-warna.png" />
+      </Head>
       <div className="absolute">
         <div className="bg-red-500 w-full h-10"></div>
       </div>

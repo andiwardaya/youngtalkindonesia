@@ -13,7 +13,7 @@ const blogAndEvent = ({ posts }) => {
       <Head>
         <title>Youngtalk Indonesia Blog & Event</title>
         <meta name="description" content="Youngtalk Indonesia Blog & Event" />
-        <link rel="icon" href="/yti_merah.png" />
+        <link rel="icon" href="/yti-warna.png" />
       </Head>
       <Navbar2 />
       <main className="max-w-6xl mx-auto grid  py-[6rem]">

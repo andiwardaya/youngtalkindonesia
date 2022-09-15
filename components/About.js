@@ -7,14 +7,14 @@ function About() {
       <div className="md:w-[50%] pb-8">
         <Image
           className="rounded-md "
-          src="/yti_merah.png"
-          width="320"
+          src="/yti-warna-full.png"
+          width="330"
           height="100"
         />
       </div>
 
       <div className="md:w-[50%]">
-        <h1 className=" text-blue-600 font-extrabold mb-4  text-4xl">
+        <h1 className=" text-blue-600 font-extrabold mb-4  md:text-4xl text-3xl text-center">
           About Young Talk Indonesia
         </h1>
         <p className="text-gray-600 font-poppins text-sm md:text-md  leading-7 indent-5">

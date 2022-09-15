@@ -4,10 +4,16 @@ import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/outline";
 import Image from "next/image";
 import Footer from "../../components/Footer";
+import Head from "next/head";
 
 const faqPage = () => {
   return (
     <>
+      <Head>
+        <title>Youngtalk Indonesia FAQ</title>
+        <meta name="description" content="Youngtalk Indonesia Blog & Event" />
+        <link rel="icon" href="/yti-warna.png" />
+      </Head>
       <Navbar2 />
       <main className="pt-[7rem] pb-[5rem]">
         <h1 className="text-center text-blue-500 font-extrabold text-4xl md:text-5xl mb-8">

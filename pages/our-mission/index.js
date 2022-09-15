@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import Footer from "../../components/Footer";
@@ -7,6 +8,11 @@ import VisiMisi from "../../components/VisiMisi";
 const ourMissionPage = () => {
   return (
     <>
+      <Head>
+        <title>Youngtalk Indonesia Mission</title>
+        <meta name="description" content="Youngtalk Indonesia Blog & Event" />
+        <link rel="icon" href="/yti-warna.png" />
+      </Head>
       <Navbar2 />
       <main className="pt-[7rem] px-5 max-w-7xl mx-auto">
         <h1 className="text-center font-extrabold text-blue-500 mb-5 md:mb-10 text-4xl">
