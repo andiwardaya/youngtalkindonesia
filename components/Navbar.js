@@ -56,7 +56,7 @@ function Navbar() {
 
         <ul
           className={`md:flex md:items-center md:space-x-10 md:static absolute md:z-auto z-[-10] ${
-            open ? "top-[20px] " : "top-[-700px]"
+            open ? "top-[20px] " : "top-[-1000px]"
           } w-full h-screen md:h-auto left-0 md:w-auto transition-all  duration-500 ease-in-out md:pt-0  md:bg-transparent py-10 md:py-0   ${
             scrollTop === 0 ? "bg-blue-400" : "bg-blue-400"
           } `}

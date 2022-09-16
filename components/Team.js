@@ -9,72 +9,74 @@ function Team() {
       <h1 className="text-center font-extrabold text-2xl md:text-4xl text-blue-500 md:mb-3">
         Meet The Team
       </h1>
-      <div className="grid md:grid-cols-2 xl:grid-cols-3 py-5">
+      <div className="grid grid-cols-2 xl:grid-cols-3 py-5 gap-5 px-5 py-10">
         <TeamCard
-          name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          name={"Arif Kautsar"}
+          img={"./anggota/arif-fix.png"}
+          jabatan={"Head of Creative Economy"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=arifkautshar@gmail.com&hl=id"
+          }
           linkedIn={"www.google.com"}
           motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+            "Mulai bersiaplah,Karena hidup akan selalu memberikan kejutan yang lebih tak terduga dari sebelumnya"
           }
         />
         <TeamCard
-          name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          name={"Ainur Rofek"}
+          img={"./anggota/rofik-final.png"}
+          jabatan={"Head Of Education and Culture"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
-          linkedIn={"www.google.com"}
-          motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ainurrofek1616@gmail.com&hl=id"
           }
+          linkedIn={"www.google.com"}
+          motto={"Belajar, Belajar, dan Belajar"}
         />
         <TeamCard
           name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          img={"./anggota/kemal-sm.png"}
+          jabatan={"President Of YoungTalk Indonesia"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
-          linkedIn={"www.google.com"}
-          motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=kemal.18106@mhs.unesa.ac.id&hl=id"
           }
+          linkedIn={"www.google.com"}
+          motto={"Hidup yang tak diperjuangkan tak akan dimenangkan"}
         />
         <TeamCard
-          name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          name={"Primus Akbar M"}
+          img={"./anggota/Primus.png"}
+          jabatan={"Financial Manager"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
-          linkedIn={"www.google.com"}
-          motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=primusakbar99@gmail.com&hl=id"
           }
+          linkedIn={"www.google.com"}
+          motto={"Berfikirlah melebihi semesta, walau raga di dunia."}
         />
         <TeamCard
-          name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          name={"Anata Ikrommullah"}
+          img={"./anggota/anata-sm.png"}
+          jabatan={"Advisory Board"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
-          linkedIn={"www.google.com"}
-          motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=phylonata@gmail.com&hl=id"
           }
+          linkedIn={"www.google.com"}
+          motto={"Biarkan Realitas nampak apa adanya."}
         />
         <TeamCard
-          name={"Kemal Pasha"}
-          img={"./Kemal.png"}
-          jabatan={"Consultant Event"}
+          name={"Cicilia Laura Efifani"}
+          img={"./anggota/Laura-sm.png"}
+          jabatan={"Head of Creative Economy"}
           linkIG={"https://www.google.com/"}
-          linkGoogle={"www.google.com"}
-          linkedIn={"www.google.com"}
-          motto={
-            "hidup adalah kunci lorem ipsum deler sia ament lakii kdaklj hs"
+          linkGoogle={
+            "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=cicilialaura03@gmail.com&hl=id"
           }
+          linkedIn={"www.google.com"}
+          motto={"Learn from the past, live for today and plan for tomorrow."}
         />
       </div>
       <div className="flex">
