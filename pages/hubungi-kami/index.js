@@ -40,7 +40,8 @@ const HubunngiKamiPage = () => {
                 <Image src="/location.svg" width="100" height="100" />
                 <p className="font-bold text-gray-600 uppercase">Alamat Kami</p>
                 <p className="text-sm text-gray-500">
-                  Jalan Nangka, Kecamatan Lumajang, Kabupaten Lumajang
+                  Sekretariatan di Jalan Seruji Barat No. 63 Lumajang (Lantai 2
+                  Toko Timur Menara)
                 </p>
               </div>
             </div>
@@ -49,8 +50,7 @@ const HubunngiKamiPage = () => {
               <div className="text-center space-y-3">
                 <Image src="/phone.svg" width="100" height="100" />
                 <p className="font-bold text-gray-600 uppercase">Nomor Kami</p>
-                <p className="text-sm text-gray-500">+6289392939292</p>
-                <p className="text-sm text-gray-500">+6289392939292</p>
+                <p className="text-sm text-gray-500">+6285232820747</p>
               </div>
             </div>
             {/* email */}
@@ -58,7 +58,9 @@ const HubunngiKamiPage = () => {
               <div className="text-center space-y-3">
                 <Image src="/email.svg" width="100" height="100" />
                 <p className="font-bold text-gray-600 uppercase">Email Kami</p>
-                <p className="text-sm text-gray-500">youngtalk@xxx.com</p>
+                <p className="text-sm text-gray-500">
+                  youngtalkindonesia@gmail.com
+                </p>
               </div>
             </div>
           </div>
@@ -68,13 +70,19 @@ const HubunngiKamiPage = () => {
             Connect With Us
           </h1>
           <div className="flex items-center justify-center gap-10">
-            <a href="https://google.com" target="_blank">
+            <a
+              href="https://www.instagram.com/youngtalkindonesia/"
+              target="_blank"
+            >
               <Image className="" src="/ig.svg" width="80" height="80" />
             </a>
-            <a href="https://google.com" target="_blank">
-              <Image className="" src="/twitter.svg" width="70" height="70" />
+            <a
+              href="https://www.youtube.com/channel/UCVi5-6thv2AQlDO7aMihSnA"
+              target="_blank"
+            >
+              <Image className="" src="/yt.svg" width="70" height="70" />
             </a>
-            <a href="https://google.com" target="_blank">
+            <a href="https://www.facebook.com/YoungTalk.id/" target="_blank">
               <Image className="" src="/fb.svg" width="70" height="70" />
             </a>
           </div>

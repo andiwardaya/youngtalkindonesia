@@ -20,7 +20,9 @@ const TeamCard = ({
       </div>
       <div className="flex-[50%]">
         <div className="mb-3">
-          <h1 className="font-bold text-blue-500 text-xl">{name}</h1>
+          <h1 className="font-bold text-blue-500 md:text-xl text-base ">
+            {name}
+          </h1>
           <p className="text-sm text-gray-600">{jabatan}</p>
         </div>
         <div className="flex gap-3">
@@ -39,7 +41,7 @@ const TeamCard = ({
             />
           </a>
         </div>
-        <p className="text-sm text-gray-600 "> "{motto}"</p>
+        <p className="text-[12px] md:text-sm text-gray-600 "> "{motto}"</p>
       </div>
     </div>
   );

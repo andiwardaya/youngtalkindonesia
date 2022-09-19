@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import FooterLink from "./FooterLink";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -11,38 +12,40 @@ function Footer() {
         <div className="flex-[50%]">
           <Image className="" src="/YTI_White.png" width="150" height="40" />
           <p className="text-sm text-gray-300">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s,
+            Young Talk Indonesia merupakan organisasi non-profit kepemudaan yang
+            bergerak di bidang media yang berpusat di kabupaten Lumajang
+            Provinsi Jawa Timur.
           </p>
         </div>
         <div className=" gap-3 grid grid-cols-2 md:flex-[50%]  md:flex md:justify-end md:gap-20 md:pr-10">
-          <FooterLink
-            title="Blog"
-            link1="Blog"
-            link1Adress="/new-season"
-            link2="Event"
-            link2Adress="/new-season"
-            link3="Vision and mission"
-            link3Adress="/new-season"
-          />
-          <FooterLink
-            title="About"
-            link1="Help"
-            link1Adress="/new-season"
-            link2="Shipping"
-            link2Adress="/new-season"
-            link3="Affiliate"
-            link3Adress="/new-season"
-          />
+          <div className="space-y-2">
+            <h1 className="text-blue-400 font-bold">Discovery</h1>
+            <ul className="text-sm text-white space-y-1">
+              <li className="hover:text-blue-300">
+                <Link href="/blog-and-event">
+                  <a>Event and Blog</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="space-y-2">
+            <h1 className="text-blue-400 font-bold">About</h1>
+            <ul className="text-sm text-white space-y-1">
+              <li className="hover:text-blue-300">
+                <Link href="/our-mission">
+                  <a>Our Mission</a>
+                </Link>
+              </li>
+            </ul>
+          </div>
           <FooterLink
             title="Info"
-            link1="Contact Us"
-            link1Adress="/new-season"
-            link2="FAQ"
-            link2Adress="/new-season"
-            link3="Informasi"
-            link3Adress="/new-season"
+            link1="Instagram"
+            link1Adress="https://www.instagram.com/youngtalkindonesia/"
+            link2="Youtube"
+            link2Adress="https://www.youtube.com/channel/UCVi5-6thv2AQlDO7aMihSnA"
+            link3="Facebook"
+            link3Adress="https://www.facebook.com/YoungTalk.id/"
           />
         </div>
       </div>
