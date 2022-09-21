@@ -5,7 +5,7 @@ import { sanityClient, urlFor } from "../../sanity";
 import { useForm } from "react-hook-form";
 import Footer from "../../components/Footer";
 
-const singlePageBlog = ({ post }) => {
+const SinglePageBlog = ({ post }) => {
   console.log(post);
   const [submitted, setSubmitted] = useState(false);
   const {
@@ -186,7 +186,7 @@ const singlePageBlog = ({ post }) => {
   );
 };
 
-export default singlePageBlog;
+export default SinglePageBlog;
 
 // This function gets called at build time
 export async function getStaticPaths() {

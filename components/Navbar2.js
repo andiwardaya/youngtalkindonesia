@@ -28,6 +28,7 @@ const Navbar2 = () => {
               src="/yti-warna.png"
               width="50"
               height="38"
+              alt="logoYTI"
             />
           </Link>
         </div>

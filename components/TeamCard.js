@@ -26,13 +26,13 @@ const TeamCard = ({
           <p className="text-[12px] md:text-base text-gray-600">{jabatan}</p>
         </div>
         <div className="flex gap-3">
-          <a href={linkIG} target="_blank">
+          <a href={linkIG} target="_blank" rel="noreferrer">
             <Image className="" src="/logoIg.png" width="20" height="20" />
           </a>
-          <a href={linkGoogle} target="_blank">
+          <a href={linkGoogle} target="_blank" rel="noreferrer">
             <Image className=" " src="/logoGoogle.png" width="20" height="20" />
           </a>
-          <a href={linkedIn} target="_blank">
+          <a href={linkedIn} target="_blank" rel="noreferrer">
             <Image
               className=" "
               src="/logoLinkedin.png"
@@ -41,7 +41,10 @@ const TeamCard = ({
             />
           </a>
         </div>
-        <p className="text-[12px] md:text-sm text-gray-600 "> "{motto}"</p>
+        <p className="text-[12px] md:text-sm text-gray-600 ">
+          {" "}
+          &quot;{motto}&quot;
+        </p>
       </div>
     </div>
   );

@@ -43,7 +43,7 @@ function Navbar() {
         {/* Logo */}
         <div className="cursor-pointer pt-2">
           <Link href="/">
-            <Image src="/yti-warna.png" width="50" height="38" />
+            <Image src="/yti-warna.png" width="50" height="38" alt="logoYTI" />
           </Link>
         </div>
         {/* Hamburger Icon */}

@@ -21,7 +21,13 @@ const faqPage = () => {
         </h1>
         <div className="flex flex-col items-center justify-center gap-10 md:flex-row">
           <div className="md:flex-[50%]">
-            <Image className="" src="/faq.svg" width="920" height="300" />
+            <Image
+              className=""
+              src="/faq.svg"
+              width="920"
+              height="300"
+              alt="faq"
+            />
           </div>
           <div className="md:flex-[50%] w-full px-4">
             {/* DISCLOSUREE */}

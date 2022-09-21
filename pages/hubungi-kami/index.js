@@ -37,7 +37,12 @@ const HubunngiKamiPage = () => {
             {/* alamat */}
             <div className="border border-gray-200 p-10 shadow-md hover:shadow-xl hover:shadow-blue-200 rounded-md w-full h-[17rem]">
               <div className="text-center space-y-3">
-                <Image src="/location.svg" width="100" height="100" />
+                <Image
+                  src="/location.svg"
+                  width="100"
+                  height="100"
+                  alt="lokasi"
+                />
                 <p className="font-bold text-gray-600 uppercase">Alamat Kami</p>
                 <p className="text-sm text-gray-500">
                   Sekretariatan di Jalan Seruji Barat No. 63 Lumajang (Lantai 2
@@ -48,7 +53,7 @@ const HubunngiKamiPage = () => {
             {/* Phone */}
             <div className="border border-gray-200 p-10 shadow-md hover:shadow-xl hover:shadow-blue-200 rounded-md w-full h-[17rem]">
               <div className="text-center space-y-3">
-                <Image src="/phone.svg" width="100" height="100" />
+                <Image src="/phone.svg" width="100" height="100" alt="telfon" />
                 <p className="font-bold text-gray-600 uppercase">Nomor Kami</p>
                 <p className="text-sm text-gray-500">+6285232820747</p>
               </div>
@@ -56,7 +61,7 @@ const HubunngiKamiPage = () => {
             {/* email */}
             <div className="border border-gray-200 p-10 shadow-md hover:shadow-xl hover:shadow-blue-200 rounded-md w-full h-[17rem]">
               <div className="text-center space-y-3">
-                <Image src="/email.svg" width="100" height="100" />
+                <Image src="/email.svg" width="100" height="100" alt="email" />
                 <p className="font-bold text-gray-600 uppercase">Email Kami</p>
                 <p className="text-sm text-gray-500">
                   youngtalkindonesia@gmail.com
@@ -73,17 +78,42 @@ const HubunngiKamiPage = () => {
             <a
               href="https://www.instagram.com/youngtalkindonesia/"
               target="_blank"
+              rel="noreferrer"
             >
-              <Image className="" src="/ig.svg" width="80" height="80" />
+              <Image
+                className=""
+                src="/ig.svg"
+                width="80"
+                height="80"
+                alt="ig"
+              />
             </a>
             <a
               href="https://www.youtube.com/channel/UCVi5-6thv2AQlDO7aMihSnA"
               target="_blank"
+              rel="noreferrer"
             >
-              <Image className="" src="/yt.svg" width="70" height="70" />
+              <Image
+                className=""
+                src="/yt.svg"
+                width="70"
+                height="70"
+                yt
+                alt=""
+              />
             </a>
-            <a href="https://www.facebook.com/YoungTalk.id/" target="_blank">
-              <Image className="" src="/fb.svg" width="70" height="70" />
+            <a
+              href="https://www.facebook.com/YoungTalk.id/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                className=""
+                src="/fb.svg"
+                width="70"
+                height="70"
+                alt="fb"
+              />
             </a>
           </div>
         </div>

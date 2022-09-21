@@ -25,6 +25,7 @@ const ourMissionPage = () => {
               src="/studentsfinal.png"
               width="400"
               height="280"
+              alt="foto-mahasiswa"
             />
           </div>
           <div className="md:flex-[50%]  ">
@@ -53,9 +54,10 @@ const ourMissionPage = () => {
           <div className="md:flex-[50%] md:flex md:justify-center">
             <Image
               className="rounded-md"
-              src="/studentsfinal.png"
-              width="400"
-              height="280"
+              src="/studentlaptop.png"
+              width="300"
+              height="300"
+              alt="studentlaptop"
             />
           </div>
           <div className="md:flex-[50%]  ">

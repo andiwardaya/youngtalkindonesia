@@ -10,7 +10,13 @@ function Footer() {
       <hr className="border-1 border-gray-500 mb-2"></hr>
       <div className="md:flex md:justify-center md:pb-5 space-y-5 md:space-y-0 ">
         <div className="flex-[50%]">
-          <Image className="" src="/YTI_White.png" width="150" height="40" />
+          <Image
+            className=""
+            src="/YTI_White.png"
+            width="150"
+            height="40"
+            alt="logoYTI"
+          />
           <p className="text-sm text-gray-300">
             Young Talk Indonesia merupakan organisasi non-profit kepemudaan yang
             bergerak di bidang media yang berpusat di kabupaten Lumajang
