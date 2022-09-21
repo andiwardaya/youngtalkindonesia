@@ -15,7 +15,7 @@ const TeamCard = ({
       <div className="flex-[50%]">
         <img
           src={img}
-          className="md:w-[25rem] md:h-[13rem] w-[22rem] h-[10rem]  bg-blue-400 rounded-md object-cover"
+          className="md:w-[25rem] md:h-[13rem] w-[18rem] h-[8rem]  bg-blue-400 rounded-md object-cover"
         />
       </div>
       <div className="flex-[50%]">
@@ -23,7 +23,7 @@ const TeamCard = ({
           <h1 className="font-bold text-blue-500 md:text-xl text-base ">
             {name}
           </h1>
-          <p className="text-sm text-gray-600">{jabatan}</p>
+          <p className="text-[12px] md:text-base text-gray-600">{jabatan}</p>
         </div>
         <div className="flex gap-3">
           <a href={linkIG} target="_blank">

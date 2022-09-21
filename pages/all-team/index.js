@@ -36,15 +36,15 @@ const allTeamPage = () => {
             }
           />
           <TeamCard
-            name={"Ainur Rofek"}
-            img={"./anggota/rofik-final.png"}
-            jabatan={"Head Of Education and Culture"}
+            name={"Cicilia Laura Efifani"}
+            img={"./anggota/Laura-sm.png"}
+            jabatan={"Head of Creative Economy"}
             linkIG={"https://www.google.com/"}
             linkGoogle={
-              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ainurrofek1616@gmail.com&hl=id"
+              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=cicilialaura03@gmail.com&hl=id"
             }
             linkedIn={"www.google.com"}
-            motto={"Belajar, Belajar, dan Belajar"}
+            motto={"Learn from the past, live for today and plan for tomorrow."}
           />
           <TeamCard
             name={"Kemal Pasha"}
@@ -80,16 +80,17 @@ const allTeamPage = () => {
             motto={"Biarkan Realitas nampak apa adanya."}
           />
           <TeamCard
-            name={"Cicilia Laura Efifani"}
-            img={"./anggota/Laura-sm.png"}
-            jabatan={"Head of Creative Economy"}
+            name={"Ainur Rofek"}
+            img={"./anggota/rofik-final.png"}
+            jabatan={"Head Of Education and Culture"}
             linkIG={"https://www.google.com/"}
             linkGoogle={
-              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=cicilialaura03@gmail.com&hl=id"
+              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=ainurrofek1616@gmail.com&hl=id"
             }
             linkedIn={"www.google.com"}
-            motto={"Learn from the past, live for today and plan for tomorrow."}
+            motto={"Belajar, Belajar, dan Belajar"}
           />
+
           <TeamCard
             name={"Rizqy Zahrial Firdausy"}
             img={"./anggota/riski-sm.png"}
@@ -216,18 +217,17 @@ const allTeamPage = () => {
             motto={"Pantang Menyerah"}
           />
           <TeamCard
-            name={"Tasya Hikmah Daniyah "}
-            img={"./anggota/tasya-sm.png"}
-            jabatan={"Law and Human Right"}
+            name={"Dewi Masruroh"}
+            img={"./anggota/dewi-masruroh-final.png"}
+            jabatan={"Creative Economy"}
             linkIG={"https://www.google.com/"}
             linkGoogle={
-              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=tasya.hikmah02@gmail.com&hl=id"
+              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=dewimasruroh15@student.ub.ac.id&hl=id"
             }
             linkedIn={"www.google.com"}
-            motto={
-              "Jika anda benar jangan takut untuk menyuarakan dan jika anda salah maka diamlah dan berani menerimanya"
-            }
+            motto={"sepuluh yang tidak ada sebelasnya"}
           />
+
           <TeamCard
             name={"Sekar Widyaningrum"}
             img={"./anggota/sekar.png"}
@@ -275,19 +275,21 @@ const allTeamPage = () => {
             motto={"Khairunnas ahsanuhum khuluqon wa anfauhum linnas"}
           />
           <TeamCard
-            name={"Dewi Masruroh"}
-            img={"./anggota/dewi-masruroh-final.png"}
-            jabatan={"Creative Economy"}
+            name={"Tasya Hikmah Daniyah "}
+            img={"./anggota/tasya-sm.png"}
+            jabatan={"Law and Human Right"}
             linkIG={"https://www.google.com/"}
             linkGoogle={
-              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=dewimasruroh15@student.ub.ac.id&hl=id"
+              "https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=tasya.hikmah02@gmail.com&hl=id"
             }
             linkedIn={"www.google.com"}
-            motto={"sepuluh yang tidak ada sebelasnya"}
+            motto={
+              "Jika anda benar jangan takut untuk menyuarakan dan jika anda salah maka diamlah dan berani menerimanya"
+            }
           />
           <TeamCard
             name={"Andi Wardaya"}
-            img={"./anggota/sekar.png"}
+            img={"./anggota/andiwardaya.png"}
             jabatan={"Communication and Information"}
             linkIG={"https://www.google.com/"}
             linkGoogle={
